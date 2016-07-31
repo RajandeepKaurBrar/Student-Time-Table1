@@ -26,7 +26,8 @@ public class MyMain {
 			c1.displayCourseInfo();
 			Courses c2 = new Courses("Development and Software Testing", "IT7320");
 			c2.displayCourseInfo();
-			
+			Courses c3 = new Courses("System Engineering", "IT7368");
+			c3.displayCourseInfo();
 			Courses c4 = new Courses("Logical DataBase Design", "IT6256");
 			c4.displayCourseInfo();
 
