@@ -31,6 +31,9 @@ public class MyMain {
 			Courses c4 = new Courses("Logical DataBase Design", "IT6256");
 			c4.displayCourseInfo();
 
+			Courses c5 = new Courses("Information Management System", "IT6346");
+			c5.displayCourseInfo();
+
 		} else if (choice.equals("C")) {
 			Timetable t1 = new Timetable("Monday","IT6268", "8:00-9:00");
 			t1.displayTimetable();
