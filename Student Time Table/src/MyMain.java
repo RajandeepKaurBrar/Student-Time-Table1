@@ -11,13 +11,14 @@ public class MyMain {
 		System.out.println("C. View Student TimeTable");
 		System.out.println("Enter Your Choice: ");
 		choice = input.nextLine();
+	
 
 		if (choice.equals("A")) {
 			Student S1 = new Student("Rajandeep Kaur Brar", 2163281, "Graduate Diplomia in Information Technology");
 			S1.display();
 			Student S2 = new Student("Harmandeep Kaur", 2164208 , "Graduate Diplomia in Information Technology");
 			S2.display();
-			Student S3 = new Student("Amitoj Singh", 2163789, "Graduate Diplomia in Information Technology");
+			Student S3 = new Student("Amitoj Dhindsa", 2163789, "Graduate Diplomia in Information Technology");
 			S3.display();
 			
 		} else if (choice.equals("B")) {
